@@ -344,6 +344,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1140182545 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1015465822362734689, guid: e65b16c8b95cec247b0bb2787e323d6a, type: 3}
+  m_PrefabInstance: {fileID: 2278138921167377101}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1473682597
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +441,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1504605877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1335024136556729458, guid: e65b16c8b95cec247b0bb2787e323d6a, type: 3}
+  m_PrefabInstance: {fileID: 2278138921167377101}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1579218814
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,10 +512,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2429632697463166090, guid: e65b16c8b95cec247b0bb2787e323d6a, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3259853019056572314, guid: e65b16c8b95cec247b0bb2787e323d6a, type: 3}
       propertyPath: m_Name
       value: Player Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 4596394286710940308, guid: e65b16c8b95cec247b0bb2787e323d6a, type: 3}
+      propertyPath: _lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596394286710940308, guid: e65b16c8b95cec247b0bb2787e323d6a, type: 3}
+      propertyPath: _lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1140182545}
+    - target: {fileID: 4596394286710940308, guid: e65b16c8b95cec247b0bb2787e323d6a, type: 3}
+      propertyPath: _lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 1504605877}
     - target: {fileID: 6318198355838051823, guid: e65b16c8b95cec247b0bb2787e323d6a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 198.14

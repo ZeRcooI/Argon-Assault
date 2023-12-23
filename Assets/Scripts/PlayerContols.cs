@@ -2,12 +2,19 @@ using UnityEngine;
 
 public class PlayerContols : MonoBehaviour
 {
-    [SerializeField] private float _controlSpeed = 10f;
-    [SerializeField] private float _controlPitchFactor = -10f;
+    [Header("General Setup Setting")]
+    [Tooltip("XYLI NADO")] [SerializeField] private float _controlSpeed = 10f;
     [SerializeField] private float _xRange = 8f;
     [SerializeField] private float _yRange = 3.5f;
 
+    [Header("Lazer gun array")]
+    [SerializeField] private GameObject[] _lasers;
+
+    [Header("Screen position based tuning")]
     [SerializeField] private float _positionPitchFactor = -5f;
+    [SerializeField] private float _controlPitchFactor = -10f;
+
+    [Header("Player input based tuning")]
     [SerializeField] private float _positionYawFactor = 5f;
     [SerializeField] private float _controllRollFactor = 1f;
 
@@ -18,6 +25,29 @@ public class PlayerContols : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
+    }
+
+    private void ProcessFiring()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            SetLasersActive(true);
+        }
+        else
+        {
+            SetLasersActive(false);
+        }
+    }
+
+    private void SetLasersActive(bool isActive)
+    {
+        foreach (GameObject lazer in _lasers)
+        {
+            ParticleSystem.EmissionModule emissionModule = lazer.GetComponent<ParticleSystem>().emission;
+
+            emissionModule.enabled = isActive;
+        }
     }
 
     private void ProcessRotation()
