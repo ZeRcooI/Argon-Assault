@@ -259,7 +259,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3856227789497296536, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.32
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3856227789497296536, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -302,8 +302,16 @@ PrefabInstance:
       value: Right Lazer
       objectReference: {fileID: 0}
     - target: {fileID: 7344294497550419420, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
+      propertyPath: lengthInSec
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344294497550419420, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
       propertyPath: playOnAwake
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344294497550419420, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -330,7 +338,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3856227789497296536, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.49
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 3856227789497296536, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -373,8 +381,16 @@ PrefabInstance:
       value: Left Lazer
       objectReference: {fileID: 0}
     - target: {fileID: 7344294497550419420, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
+      propertyPath: lengthInSec
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344294497550419420, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
       propertyPath: playOnAwake
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344294497550419420, guid: f8d69f7c6da4bd740abea7c314f548c1, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
