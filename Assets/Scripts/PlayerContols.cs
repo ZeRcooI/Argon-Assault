@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerContols : MonoBehaviour
 {
     [Header("General Setup Setting")]
-    [Tooltip("XYLI NADO")] [SerializeField] private float _controlSpeed = 10f;
+    [Tooltip("XYLI NADO")][SerializeField] private float _controlSpeed = 10f;
     [SerializeField] private float _xRange = 8f;
     [SerializeField] private float _yRange = 3.5f;
 
