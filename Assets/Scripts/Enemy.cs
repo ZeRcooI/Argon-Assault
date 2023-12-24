@@ -45,12 +45,12 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
 
         _hitPoint--;
-
-        _scoreBoard.IncreaseScore(_scoreHit);
     }
 
     private void KillEnemy()
     {
+        _scoreBoard.IncreaseScore(_scoreHit);
+
         GameObject effects = Instantiate(_deathEffects, transform.position, Quaternion.identity);
 
         effects.transform.parent = _parentGameObject.transform;
