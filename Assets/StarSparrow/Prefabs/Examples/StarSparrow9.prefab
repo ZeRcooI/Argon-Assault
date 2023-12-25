@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6381717807702404472}
   - component: {fileID: 376511769072937060}
   - component: {fileID: 5886877086701084038}
+  - component: {fileID: 1118184190126866710}
   m_Layer: 0
   m_Name: StarSparrow9
   m_TagString: Untagged
@@ -100,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _deathEffects: {fileID: 4221355003059445832, guid: 563cf89c78239d849b981c055b64808d, type: 3}
   _hitEffects: {fileID: 4221355003059445832, guid: 9eb8c69343931cf4abd5d90831759c60, type: 3}
-  _scoreHit: 15
+  _scoreHit: 50
   _hitPoint: 3
 --- !u!95 &5886877086701084038
 Animator:
@@ -123,6 +124,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!320 &1118184190126866710
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868557193350040749}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 513c72cd692e0784a961d09bfb5fc53e, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1465227907706380212, guid: 513c72cd692e0784a961d09bfb5fc53e, type: 2}
+    value: {fileID: 5886877086701084038}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &6324304545547037239
 GameObject:
   m_ObjectHideFlags: 0
