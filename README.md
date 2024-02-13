@@ -9,7 +9,6 @@
 - лучше освоил как применять звук на аудиклипах
 - научился вставлять в канвас динамические спрайты( например как Дэн Форден, в мортал комба сбоку вылезал)
 
+![Screenshot](https://github.com/ZeRcooI/Argon-Assault/blob/main/Assets/ScreenShots/Screenshot%201.jpg)
 
-
-
-* The preview can be viewed here: [https://youtu.be/KNOUwVO6i1Y](https://youtu.be/lPJ-bPVAfTg)
+Небольшой отрывок игры: [https://youtu.be/KNOUwVO6i1Y](https://youtu.be/lPJ-bPVAfTg)
