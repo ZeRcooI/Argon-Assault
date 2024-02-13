@@ -9,7 +9,7 @@
 - Улучшенные навыки звукового дизайна, что помогло создать насыщенное и эмоциональное звуковое сопровождение с использованием аудиоклипов.
 - Новое понимание динамических спрайтов в Canvas, аналогично тому, как это было реализовано в игре "Mortal Kombat", что дало возможность создавать интерактивные элементы пользовательского интерфейса, улучшая взаимодействие игрока с игрой.
 
-Небольшой отрывок игры: [https://youtu.be/KNOUwVO6i1Y](https://youtu.be/lPJ-bPVAfTg)
+Небольшой отрывок игры: https://youtu.be/lPJ-bPVAfTg
 
 ![Screenshot](https://github.com/ZeRcooI/Argon-Assault/blob/main/Assets/ScreenShots/Screenshot%201.jpg)
 ![Screenshot](https://github.com/ZeRcooI/Argon-Assault/blob/main/Assets/ScreenShots/Screenshot%202.jpg)
